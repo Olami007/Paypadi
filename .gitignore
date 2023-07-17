@@ -38,4 +38,4 @@ next-env.d.ts
 /src/app/db.js
 
 # Environment files
-.env 
+.env
