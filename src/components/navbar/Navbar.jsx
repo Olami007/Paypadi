@@ -16,7 +16,7 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   return (
     <Disclosure as="nav" className="bg-gray-800">
@@ -38,7 +38,7 @@ export default function Navbar() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-8 w-auto"
+                    className="h-12 w-auto"
                     src="./paypadi_logo.png"
                     alt="Your Company"
                   />
