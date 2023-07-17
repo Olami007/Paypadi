@@ -36,3 +36,6 @@ next-env.d.ts
 
 # Trial Database
 /src/app/db.js
+
+# Environment files
+.env 
