@@ -36,5 +36,3 @@ next-env.d.ts
 
 # Trial Database
 /src/app/db.js
-
-/src/components
